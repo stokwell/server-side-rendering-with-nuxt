@@ -3,7 +3,7 @@
     <h1>Search iTunes</h1>
     <br/>
 
-    <form @submit.prevent="submit">
+    <form @submit.prevent="submit">  
       <input placeholder="Enter Artist name" v-model="search" autofocus />
     </form>
   </div>
